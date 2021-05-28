@@ -1,0 +1,233 @@
+#kkk{
+	position:relative;
+	top:-31px;
+	height:605px;
+	left:1px;
+	
+}
+#oo{
+	position:sticky;
+	top:450px;
+	left:2px;
+	-webkit-box-shadow: 2px 4px 20px 3px rgba(0, 0, 0, 0.99);
+	box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.99);
+	height:605px;
+	width:445px;
+	background-img:url("img/kk.jpg");
+	background-size:cover;
+	border-radius:20px;
+	border:1px solid white;
+	overflow:hidden;
+}
+/* :: 12.0 Breadcrumb CSS */
+.breadcrumb-area {
+  position: relative;
+  z-index: 1;
+  height: 370px; }
+  @media only screen and (max-width: 767px) {
+    .breadcrumb-area {
+      height: 240px; } }
+  .breadcrumb-area .page-title {
+    color: #ffffff;
+    font-size: 36px; }
+    @media only screen and (max-width: 767px) {
+      .breadcrumb-area .page-title {
+        font-size: 24px; } }
+
+.breadcrumb-content {
+  position: relative;
+  z-index: 1;
+  margin-top: 70px; }
+  .breadcrumb-content .breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0; }
+    .breadcrumb-content .breadcrumb .breadcrumb-item {
+      color: #fc6060;
+      font-weight: 400;
+      font-size: 16px; }
+      .breadcrumb-content .breadcrumb .breadcrumb-item a {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400; }
+        .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
+          color: #fc6060; }
+    .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+      content: '\f105';
+      color: #ffffff;
+      font-family: "FontAwesome"; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#youtube{
+	background-image:url("img/yoyop.jpg");
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.70);
+  box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.70);
+	height:525px;
+  border-bottom:1px solid white;
+}
+#rajib{
+	text-shadow:1px 2px 3px blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :: 14.0 Team CSS */
+.team-content-area {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  -webkit-box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background-color: #ffffff; }
+  .team-content-area .member-thumb {
+	  border-top:2px solid red;
+	  height:220px;
+	  border-bottom:2px solid blue;
+	  border-radius:100%;
+    margin: 0 auto 40px;
+    width: 165px; }
+    .team-content-area .member-thumb img {
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      width: 100%;
+      border-radius: 50%; }
+  .team-content-area h5 {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0; }
+  .team-content-area span {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #fc6060;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .team-content-area .member-social-info {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px; }
+    .team-content-area .member-social-info a {
+      color: #636363;
+      font-size: 16px;
+      margin: 0 10px;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms; }
+      .team-content-area .member-social-info a:hover, .team-content-area .member-social-info a:focus {
+        color: #fc6060; }
+  .team-content-area:hover, .team-content-area:focus {
+    background-color: #fc6060; }
+    .team-content-area:hover .member-thumb img, .team-content-area:focus .member-thumb img {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    .team-content-area:hover h5,
+    .team-content-area:hover span, .team-content-area:focus h5,
+    .team-content-area:focus span {
+      color: #ffffff; }
+    .team-content-area:hover .member-social-info a, .team-content-area:focus .member-social-info a {
+      color: #ffffff; }
+      .team-content-area:hover .member-social-info a:hover, .team-content-area:hover .member-social-info a:focus, .team-content-area:focus .member-social-info a:hover, .team-content-area:focus .member-social-info a:focus {
+        color: #000000; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumb-area.blog {
+  height: 550px; }
+  .breadcrumb-area.blog .breadcrumb-content .post-catagory {
+    padding: 2px 15px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #fc6060;
+    font-weight: 500;
+    margin-bottom: 15px; }
+    .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
+      font-weight: 500;
+      background-color: #000000; }
+  .breadcrumb-area.blog .breadcrumb-content .page-title {
+    display: block;
+    font-size: 48px;
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 767px) {
+      .breadcrumb-area.blog .breadcrumb-content .page-title {
+        font-size: 30px; } }
+  .breadcrumb-area.blog .breadcrumb-content .post-meta {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5px; }
+    .breadcrumb-area.blog .breadcrumb-content .post-meta a {
+      position: relative;
+      z-index: 1;
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: 500;
+      margin-right: 21px; }
+      @media only screen and (max-width: 767px) {
+        .breadcrumb-area.blog .breadcrumb-content .post-meta a {
+          font-size: 13px; } }
+      .breadcrumb-area.blog .breadcrumb-content .post-meta a::after {
+        content: '|';
+        position: absolute;
+        top: 0;
+        right: -11px;
+        z-index: 1; }
+      .breadcrumb-area.blog .breadcrumb-content .post-meta a:last-child::after {
+        display: none; }
+      .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
+        color: #fc6060; }
+        .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
+          color: #ffffff; }
